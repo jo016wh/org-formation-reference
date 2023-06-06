@@ -7,13 +7,13 @@ Organization:
   ManagementAccount:
     Type: OC::ORG::MasterAccount
     Properties:
-      Alias: '{{organization-name}}-management'
-      RootEmail: aws+management@{{email-domain}}
+      Alias: '{{johnnybianco}}-management'
+      RootEmail: johnawhitedevops@{{gmail.com}}
       AccountName: Management Account
-      AccountId: '{{management-account-id}}'
+      AccountId: '{{817326272961}}'
       Tags:
         budget-alarm-threshold: 200
-        budget-alarm-threshold-email-recipient: me@{{email-domain}}
+        budget-alarm-threshold-email-recipient: me@{{gmail.com}}
 
   OrganizationRoot:
     Type: OC::ORG::OrganizationRoot
@@ -55,29 +55,29 @@ Organization:
   SecurityAccount:
     Type: OC::ORG::Account
     Properties:
-      Alias: '{{organization-name}}-security'
+      Alias: '{{johnnybianco}}-security'
       AccountName: Security Account
-      RootEmail: aws+security@{{email-domain}}
+      RootEmail: johnawhitedevops+sec@{{gmail.com}}
       Tags:
         budget-alarm-threshold: 200
-        budget-alarm-threshold-email-recipient: security@{{email-domain}}
+        budget-alarm-threshold-email-recipient: security@{{gmail.com}}
 
   LogArchiveAccount:
     Type: OC::ORG::Account
     Properties:
-      Alias: '{{organization-name}}-log-archive'
+      Alias: '{{johnnybianco}}-log-archive'
       AccountName: Log Archive Account
-      RootEmail: aws+log-archive@{{email-domain}}
+      RootEmail: aws+log-archive@{{gmail.com}}
       Tags:
         budget-alarm-threshold: 200
-        budget-alarm-threshold-email-recipient: log-archive@{{email-domain}}
+        budget-alarm-threshold-email-recipient: log-archive@{{gmail.com}}
 
   OrgBuildAccount:
     Type: OC::ORG::Account
     Properties:
-      Alias: '{{organization-name}}-org-build'
+      Alias: '{{johnnybianco}}-org-build'
       AccountName: Organization Build Account
-      RootEmail: aws+org-build@{{email-domain}}
+      RootEmail: johnawhitedevops+svcs@{{gmail.com}}
       Tags:
         budget-alarm-threshold: 200
-        budget-alarm-threshold-email-recipient: me@{{email-domain}}
+        budget-alarm-threshold-email-recipient: me@{{gmail.com}}

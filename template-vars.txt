@@ -1,9 +1,9 @@
 the following template keys must be replaced
 
-* {{organization-name}}
-* {{email-domain}}
-* {{management-account-id}}
+* {{johnnybianco}}
+* {{gmail.com}}
+* {{817326272961}}
 * {{build-account-id}}
-* {{state-bucket-name}}
+* {{organization-formation-state-817326272961-prd}}
 * {{state-object}}
-* {{primary-aws-region}}
+* {{us-east-1}}

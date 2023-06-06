@@ -8,27 +8,27 @@ Parameters:
   # AWS SSO instance ARN
   instanceArn:
     Type: String
-    Default: '{{sso-instance-arn}}'
+    Default: '{{arn:aws:sso:::instance/ssoins-7223e2698aaffc2e}}'
 
   # Principal ID from Identity Provider's group used by administrators
   adminGroup:
     Type: String
-    Default: '{{sso-admin-group-id}}'
+    Default: '{{94e834b8-9071-70cc-9359-195a0bd1fa2a}}'
 
   # Principal ID from Identity Provider's group used by auditors
   auditorGroup:
     Type: String
-    Default: '{{sso-auditor-group-id}}'
+    Default: '{{34781478-f001-70f3-b8ac-d5fd84d7eaac}}'
 
   # Principal ID from Identity Provider's group used by developers
   developerGroup:
     Type: String
-    Default: '{{sso-developer-group-id}}'
+    Default: '{{64c84448-2001-7046-6cf8-04c9f8906b7a}}'
 
   # Principal ID from Identity Provider's group used by supporters
   supporterGroup:
     Type: String
-    Default: '{{sso-supporter-group-id}}'
+    Default: '{{c43844b8-10f1-7032-9610-07a617a8a7e0}}'
 
 SsoAdministrator:
   Type: update-stacks
