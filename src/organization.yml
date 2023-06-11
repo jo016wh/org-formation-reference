@@ -13,7 +13,7 @@ Organization:
       AccountId: '{{817326272961}}'
       Tags:
         budget-alarm-threshold: 200
-        budget-alarm-threshold-email-recipient: me@{{gmail.com}}
+        budget-alarm-threshold-email-recipient: johnawhitedevops@{{gmail.com}}
 
   OrganizationRoot:
     Type: OC::ORG::OrganizationRoot
@@ -67,7 +67,7 @@ Organization:
     Properties:
       Alias: '{{johnnybianco}}-log-archive'
       AccountName: Log Archive Account
-      RootEmail: aws+log-archive@{{gmail.com}}
+      RootEmail: johnawhitedevops+log@{{gmail.com}}
       Tags:
         budget-alarm-threshold: 200
         budget-alarm-threshold-email-recipient: log-archive@{{gmail.com}}
